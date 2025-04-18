@@ -557,8 +557,8 @@ Takuzu = function(){
       current_page('Accueil')
       output$page_content = shiny::renderUI({
         shiny::div(style = "text-align:center;",
-                   shiny::actionButton("bouton_jeu", "Jouer une partie", style = "color: black; background-color: #86D3F7; border-color: #497285"),
-                   shiny::p('Accueil'))
+                   shiny::p('Accueil')),
+                   shiny::actionButton("bouton_jeu", "Jouer une partie", style = "color: black; background-color: #86D3F7; border-color: #497285")
       })
     })
   
