@@ -493,10 +493,6 @@ unchained = function(V){
   return(V)
 }
 
-DB_facile=data(DB_facile)
-DB_moyen=data(DB_moyen)
-DB_difficile=data(DB_difficile)
-
 
 #' jouer au jeu
 #' 
@@ -507,7 +503,9 @@ DB_difficile=data(DB_difficile)
 #' @importFrom stats runif
 #' @export
 Takuzu = function(){
-
+  data(DB_facile)
+  data(DB_moyen)
+  data(DB_difficile)
   if (!requireNamespace("shiny", quietly = TRUE)) {
     stop("Le package 'shiny' est requis.")
   }
