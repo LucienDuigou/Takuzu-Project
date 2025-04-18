@@ -666,7 +666,7 @@ Takuzu = function(){
     
     output$page_content = shiny::renderUI({
       shiny::fluidPage(
-        shiny::actionButton("retour_accueil", "retour à la page d'accueil"),
+        shiny::actionButton("retour_accueil", "retour à la page d'accueil", style = "color: black; background-color: #FFC0CB; border-color: #9C767C"),
         shiny::fluidRow(
           shiny::column(12,
                         shiny::div(
@@ -716,7 +716,7 @@ Takuzu = function(){
     
     output$page_content = shiny::renderUI({
       shiny::fluidPage(
-        shiny::actionButton("retour_accueil", "retour à la page d'accueil"),
+        shiny::actionButton("retour_accueil", "retour à la page d'accueil", style = "color: black; background-color: #FFC0CB; border-color: #9C767C"),
         shiny::fluidRow(
           shiny::column(12,
                         shiny::div(
@@ -766,7 +766,7 @@ Takuzu = function(){
     
     output$page_content = shiny::renderUI({
       shiny::fluidPage(
-        shiny::actionButton("retour_accueil", "retour à la page d'accueil"),
+        shiny::actionButton("retour_accueil", "retour à la page d'accueil", style = "color: black; background-color: #FFC0CB; border-color: #9C767C"),
         shiny::fluidRow(
           shiny::column(12,
                         shiny::div(
@@ -859,7 +859,7 @@ Takuzu = function(){
     if (current_page() == 'Accueil') {
       shiny::div(style = "text-align:center;",
                  shiny::p('Accueil'),
-                 shiny::actionButton("bouton_jeu", "Jouer une partie"))
+                 shiny::actionButton("bouton_jeu", "Jouer une partie", style = "color: black; background-color: #86D3F7; border-color: #497285"))
     }
   })
   
@@ -971,10 +971,11 @@ Takuzu = function(){
                 shiny::fluidRow(
                   column(12, uiOutput("dynamicPanel"))
                 ),
-                shiny::actionButton('Back', 'Retour en arrière'),
-                shiny::actionButton('Clear', 'Recommencer')
+                shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #F8BBD0; border-color: #AC8290"),
+                shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
               )
             })
+            start_time$vect = Sys.time()
       })
       observeEvent(input$Main,{
         shiny::removeModal()
@@ -982,7 +983,7 @@ Takuzu = function(){
         output$page_content = shiny::renderUI({
           shiny::div(style = "text-align:center;",
               shiny::p('Accueil'),
-              shiny::actionButton("bouton_jeu","Jouer une partie")
+              shiny::actionButton("bouton_jeu","Jouer une partie", style = "color: black; background-color: #86D3F7; border-color: #497285")
           )
         })
       })

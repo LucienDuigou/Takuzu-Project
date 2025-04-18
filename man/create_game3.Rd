@@ -10,7 +10,7 @@ create_game3()
 une grille de taille 8x8
 }
 \description{
-Cette fonction renvoie une grille de taille 8x8 respectant les 2 premières regles. Tant que la fonction create_game1 renvoie False, on continue jusqu'a obtenir une grille correcte
+Cette fonction renvoie une grille de taille 8x8 respectant les 2 premieres regles. Tant que la fonction create_game1 renvoie False, on continue jusqu'a obtenir une grille correcte
 }
 \examples{
 create_game3()
