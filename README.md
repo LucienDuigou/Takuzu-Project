@@ -2,14 +2,13 @@
 
 
 Ce dépôt Github est un projet d'étude dans la formation de master 1 de statistique et sciences des données.
-Il consiste en la création d'un package R permettant d'executer une application de type ShinyApp. 
-Une fois executée cette application devient une interface de jeu, celui du Takuzu (ou binary) de taille 8x8. 
+Il consiste en la création d'un package R permettant d'exécuter une application de type ShinyApp. 
+Une fois réalisée, cette application devient une interface de jeu, celui du Takuzu (ou binary) de taille 8x8. 
 
 ## Comment installer le package ?
 
 Pour installer ce package, il vous suffit d'éxecuter le Rscript "Guide_installation" dans votre environnement R. 
-Lors de cette execution, il nous est arrivé de rencontrer une erreur, en relançant l'environnement, nous avons pu 
-éxécuter le et joué au jeu. 
+Lors de cette execution, il nous est arrivé de rencontrer une erreur, mais en relançant l'environnement, nous avons pu l'éxécuter et joué au jeu. 
 
 ## Comment jouer ? 
 
