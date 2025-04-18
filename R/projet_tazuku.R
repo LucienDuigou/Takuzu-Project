@@ -606,7 +606,7 @@ Takuzu = function(){
         shiny::fluidRow(
           shiny::column(12, shiny::uiOutput("dynamicPanel"))
         ),
-        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #EDA1FF; border-color: #C700E3"),
+        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #FAFF00; border-color: #C2C600"),
         shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
       )
     })
@@ -656,7 +656,7 @@ Takuzu = function(){
         shiny::fluidRow(
           shiny::column(12, shiny::uiOutput("dynamicPanel"))
         ),
-        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #EDA1FF; border-color: #C700E3"),
+        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #FAFF00; border-color: #C2C600"),
         shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
       )
     })
@@ -706,7 +706,7 @@ Takuzu = function(){
         shiny::fluidRow(
           shiny::column(12, shiny::uiOutput("dynamicPanel"))
         ),
-        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #EDA1FF; border-color: #C700E3"),
+        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #FAFF00; border-color: #C2C600"),
         shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
       )
     })
@@ -754,7 +754,7 @@ Takuzu = function(){
         shiny::fluidRow(
           shiny::column(12, shiny::uiOutput("dynamicPanel"))
         ),
-        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #EDA1FF; border-color: #C700E3"),
+        shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #FAFF00; border-color: #C2C600"),
         shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
       )
     })
@@ -893,7 +893,7 @@ Takuzu = function(){
                 shiny::fluidRow(
                   column(12, uiOutput("dynamicPanel"))
                 ),
-                shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #EDA1FF; border-color: #C700E3"),
+                shiny::actionButton('Back', 'Retour en arrière', style = "color: black; background-color: #FAFF00; border-color: #C2C600"),
                 shiny::actionButton('Clear', 'Recommencer', style = "color: black; background-color: #A8E6CF; border-color: #749F8F")
               )
             })
