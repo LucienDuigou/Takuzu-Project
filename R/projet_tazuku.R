@@ -493,6 +493,9 @@ unchained = function(V){
   return(V)
 }
 
+DB_facile=data(DB_facile)
+DB_moyen=data(DB_moyen)
+DB_difficile=data(DB_difficile)
 
 
 #' jouer au jeu
@@ -564,7 +567,7 @@ Takuzu = function(){
   observeEvent(input$bouton_difficulte2, {
     B$vect=c()
     current_page('jeu_moyen')
-    J$vect= Takuzu::DB_moyen[sample(1:20, 1)][[1]]
+    J$vect= DB_moyen[sample(1:20, 1)][[1]]
     J_$vect=J$vect
     G_ <- t(matrix(J_$vect, ncol = 8, byrow = TRUE))
     output$dynamicPanel <- shiny::renderUI({
@@ -614,7 +617,7 @@ Takuzu = function(){
   observeEvent(input$bouton_difficulte1, {
     B$vect=c()
     current_page('jeu_facile')
-    J$vect = Takuzu::DB_facile[sample(1:20, 1)][[1]]
+    J$vect = DB_facile[sample(1:20, 1)][[1]]
     J_$vect=J$vect
     G_ <- t(matrix(J_$vect, ncol = 8, byrow = TRUE))
     output$dynamicPanel <- shiny::renderUI({
@@ -664,7 +667,7 @@ Takuzu = function(){
   observeEvent(input$bouton_difficulte3, {
     B$vect=c()
     current_page('jeu_difficile')
-    J$vect = Takuzu::DB_difficile[sample(1:20, 1)][[1]]
+    J$vect = DB_difficile[sample(1:20, 1)][[1]]
     J_$vect=J$vect
     G_ <- t(matrix(J_$vect, ncol = 8, byrow = TRUE))
     output$dynamicPanel <- shiny::renderUI({
@@ -843,14 +846,14 @@ Takuzu = function(){
       observeEvent(input$replay, {
         shiny::removeModal()
           if (current_page()=='jeu_facile'){
-            J$vect= Takuzu::DB_facile[sample(1:20, 1)][[1]]
+            J$vect= DB_facile[sample(1:20, 1)][[1]]
           }
             B$vect=c()
           if (current_page()=='jeu_moyen'){
-            J$vect= Takuzu::DB_moyen[sample(1:20, 1)][[1]]
+            J$vect= DB_moyen[sample(1:20, 1)][[1]]
           }
           if (current_page()=='jeu_difficile'){
-            J$vect= Takuzu::DB_difficile[sample(1:20, 1)][[1]]
+            J$vect= DB_difficile[sample(1:20, 1)][[1]]
           }
             B$vect=c()
             J_$vect=J$vect
