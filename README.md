@@ -8,15 +8,15 @@ Une fois réalisée, cette application devient une interface de jeu, celui du Ta
 ## Comment installer le package ?
 
 Pour installer ce package, il vous suffit d'éxecuter le Rscript "Guide_installation" dans votre environnement R. 
-Lors de cette execution, il nous est arrivé de rencontrer une erreur, mais en relançant l'environnement, nous avons pu l'éxécuter et joué au jeu. 
+Lors de cette execution, il nous est arrivé de rencontrer une erreur, mais en relançant l'environnement, nous avons pu l'éxécuter et jouer au jeu. 
 
 ## Comment jouer ? 
 
-Le Takuzu est un jeu ressemblant fortement au sudoku. dans le jeu que l'on propose il est composé d'une grille de 
+Le Takuzu est un jeu ressemblant fortement au sudoku. Dans le jeu que l'on propose, il est composé d'une grille de 
 taille 8x8. Lorsque vous débuterez la partie, la grille apparaîtra partiellement remplie de zéros et de uns.
 Le but du jeu est de remplir la grille de zéros et de uns en suivant 3 règles simples : 
-- Il ne peut pas y avoir plus de 2 mêmes chiffres consécutifs sur une même ligne ou une même colonne
-- Chaque ligne et chaque colonne doit posséder éxactement 4 zéros et 4 uns.
-- Il ne peut pas y avoir de lignes identiques et deux colonnes identiques
+- Il ne peut pas y avoir plus de 2 mêmes chiffres consécutifs sur une même ligne ou une même colonne.
+- Chaque ligne et chaque colonne doit posséder exactement 4 zéros et 4 uns.
+- Il ne peut pas y avoir deux lignes identiques et deux colonnes identiques
 
 En vous souhaitant un bon jeu ! 
