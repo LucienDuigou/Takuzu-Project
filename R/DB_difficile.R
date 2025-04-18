@@ -4,6 +4,6 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name DB_moyen
+#' @name DB_difficile
 #' @usage data(DB_difficile)
 NULL
