@@ -736,7 +736,7 @@ Takuzu = function(){
     
     output$page_content = shiny::renderUI({
       shiny::fluidPage(
-        shiny::actionButton("retour_accueil", "retour à la page d'accueil"),
+        shiny::actionButton("retour_accueil", "retour à la page d'accueil", style = "color: black; background-color: #FFC0CB; border-color: #9C767C"),
         shiny::fluidRow(
           shiny::column(12,
                         shiny::div(
@@ -875,7 +875,7 @@ Takuzu = function(){
             }
             output$page_content = shiny::renderUI({
               shiny::fluidPage(
-                shiny::actionButton("retour_accueil","retour à la page d'accueil"),
+                shiny::actionButton("retour_accueil","retour à la page d'accueil", style = "color: black; background-color: #FFC0CB; border-color: #9C767C"),
                 shiny::fluidRow(
                   shiny::column(12, 
                          shiny::div(
