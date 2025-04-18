@@ -503,9 +503,9 @@ unchained = function(V){
 #' @importFrom stats runif
 #' @export
 Takuzu = function(){
-  data(DB_facile)
-  data(DB_moyen)
-  data(DB_difficile)
+  data(DB_facile, package = "Takuzu")
+  data(DB_moyen, package = "Takuzu")
+  data(DB_difficile, package = "Takuzu")
   if (!requireNamespace("shiny", quietly = TRUE)) {
     stop("Le package 'shiny' est requis.")
   }
