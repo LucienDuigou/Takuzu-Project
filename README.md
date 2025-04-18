@@ -9,6 +9,9 @@ Une fois réalisée, cette application devient une interface de jeu, celui du Ta
 
 Pour installer ce package, il vous suffit d'éxecuter le Rscript "Guide_installation" dans votre environnement R. 
 Attention toutefois à compiler ce code ligne par ligne. 
+Lorsque vous compilerez la ligne contenant la commande "remotes", il vous faudra cocher "yes" dans la fenêtre qui s'ouvrira. Cette action eut prendre plusieurs minutes. 
+
+Il vous suffit ensuite de compiler le reste du code pour avoir accès à votre interface de jeu. 
 
 
 ## Comment jouer ? 
