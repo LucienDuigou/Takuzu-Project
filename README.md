@@ -8,7 +8,8 @@ Une fois réalisée, cette application devient une interface de jeu, celui du Ta
 ## Comment installer le package ?
 
 Pour installer ce package, il vous suffit d'éxecuter le Rscript "Guide_installation" dans votre environnement R. 
-Lors de cette execution, il nous est arrivé de rencontrer une erreur, mais en relançant l'environnement, nous avons pu l'éxécuter et jouer au jeu. 
+Attention toutefois à compiler ce code ligne par ligne. 
+
 
 ## Comment jouer ? 
 
